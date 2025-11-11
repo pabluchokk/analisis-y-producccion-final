@@ -129,7 +129,7 @@ const Home = () => {
               <div className="bg-white p-8 rounded-lg shadow-xl h-full transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                 <h3 className="text-3xl font-bold text-[#B83B5E] mb-3">El Contrapunto: Olé</h3>
                 <p className="text-lg text-gray-700">
-                  Analizamos la "tendencia diferente". Cómo *Diario Olé* cubre el mismo fenómeno con un encuadre opuesto: la "fiesta" mediática, la épica deportiva y la despolitización del evento.
+                  Analizamos la "tendencia diferente". Cómo <strong>Diario Olé</strong> cubre el mismo fenómeno con un encuadre opuesto: la "fiesta" mediática, la épica deportiva y la despolitización del evento.
                 </p>
               </div>
             </Link>
@@ -140,7 +140,7 @@ const Home = () => {
                               transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                 <h3 className="text-3xl font-bold text-[#F08A5D] mb-3">La Voz Experta</h3>
                 <p className="text-lg text-gray-700">
-                  Reemplazamos la entrevista con un análisis Q&A del *paper* "Algo más que un Mundial", usando sus conceptos (Soft Power, Diplomacia Deportiva) para validar nuestra teoría.
+                  Reemplazamos la entrevista con un análisis Q&A del <strong>paper</strong> "Algo más que un Mundial", usando sus conceptos (Soft Power, Diplomacia Deportiva) para validar nuestra teoría.
                 </p>
               </div>
             </Link>
