@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const nota4 = () => {
+const  Nota4 = () => {
   return (
     <article className='bg-white'>
         {/* CONTENEDOR DEL ARTICULO */}
@@ -68,4 +68,4 @@ const nota4 = () => {
   )
 }
 
-export default nota4
+export default Nota4
