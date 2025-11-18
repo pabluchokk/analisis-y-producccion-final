@@ -13,7 +13,7 @@ const Nota1 = () => {
             Análisis de cobertura: CNN en Español
           </p>
           <h1 className='text-4xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight'>
-            Se encienden las alarmas: Arabia Saudita será sede de la Copa del Mundo 2034
+            Se encienden las alarmas: Arabia Saudita será sede de la Copa del Mundo 2034 y sectores se preocupan
           </h1>
           <p className='text-xl lg:text-2xl text-gray-600 font-serif leading-relaxed'>
             CNN no se enfoca en la "celebración" por la candidatura, sino que le da voz a los grupos defensores de los Derechos Humanos, que temen otra situacion de Qatar 2022
@@ -24,7 +24,7 @@ const Nota1 = () => {
         <figure className='mb-12'>
           <img 
             src="/mundialArabia.jpg" 
-            alt="Estadio en Arabia Saudita" 
+            alt="Proyecto de estadio en Arabia Saudita" 
             className='w-full h-auto rounded-xl shadow-xl object-cover max-h-[500px]'
           />
           <figcaption className='mt-3 text-sm text-gray-500 italic text-center'>
@@ -35,22 +35,14 @@ const Nota1 = () => {
         {/* CONTENIDO DEL ARTÍCULO */}
         <div className='prose prose-lg lg:prose-xl max-w-none text-gray-800 leading-loose'>
           <p>
-            La cobertura del anuncio de Arabia Saudita como sede del Mundial 2034 suele cubrirse de dos maneras distintas: la celebración por una nueva sede mundialista o por la crónica administrativa. <strong>CNN en Español</strong>, sin embargo, opta por una tercera vía: una interpelación ética. Su enfoque se aleja de lo "inevitable" del evento para centrarse en las preocupaciones que otros medios pasan por alto o invisibilizan para que "la fiesta no pare".
+            La nota de <strong>CNN en Español</strong>(<a href="https://cnnespanol.cnn.com/2024/12/11/deportes/arabia-saudita-sede-mundial-2034-criticas-grupos-derechos-humanos-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Arabia Saudita será sede del mundial de 2034; defensores de derechos humanos expresan preocupación"</a>) rompe con la típica de la prensa deportiva al decir que la designación de Arabia Saudita como única candidata para 2034 "no fue una sorpresa". El medio utiliza el anuncio oficial solo como disparador, pero rápidamente se enfoca en la <strong>interpelación ética</strong> que surge desde Human Rights Watch (HRW) y Amnistía Internacional.
           </p>
           <br />
-          <p>
-            En la nota titulada <a href="https://cnnespanol.cnn.com/2024/12/11/deportes/arabia-saudita-sede-mundial-2034-criticas-grupos-derechos-humanos-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Arabia Saudita será sede del mundial de 2034; defensores de derechos humanos expresan preocupación"</a>, el medio utiliza el anuncio oficial solo como disparador. El verdadero sujeto de la noticia no es la FIFA ni el país anfitrión; el sujeto es la <strong>denuncia</strong>.
-          </p>
-          <br />
-          {/* ANÁLISIS DEL LENGUAJE */}
-          <p>
-            El tono que adopta la cadena es formal, no festivo. CNN deliberadamente evita la utilizacion de palabra "épicas" ("sueño", "gloria") y lo sustituye por palabras jurídicas y políticas: "violaciones", "represión", "libertad de expresión", "abusos". Esto da a entender desde el inicio el tóno que tiene la nota: la noticia se transforma, ya no es una noticia deportiva sin más, sino un informe donde se pone en foco (como se lo hizo en Qatar 2022) las diversas violaciones a los Derechos Humanos ocurridos en el Medio Oriente.
-          </p>
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              "CNN prioriza principalmente las voces de ONGs como Amnistía Internacional por sobre los comunicados oficiales, configurando una narrativa de lucha frente al discurso corporativo de la FIFA".
+              Michael Page, de Human Rights Watch, advirtió del <strong> inimaginable costo humano'</strong> que supondría acoger el mayor acontecimiento deportivo del mundo".
             </blockquote>
           </div>
 
@@ -63,7 +55,7 @@ const Nota1 = () => {
           </p>
           <br />
           <p>
-            Esto demuestra que el valor de la noticia para CNN reside en exponer el riesgo de ligar el espectáculo masivo a un régimen. La constante exposición de las pobres condiciones laborales y la represión a activistas demuestran que el 'Soft Power' saudí, que busca atraer, termina encontrando una barrera de costo de reputación altísimo en la prensa internacional.
+            El rigor periodístico se demuestra en la sustancia de las demandas: las ONGs no piden la cancelación, sino que <strong>instan a la FIFA a detener el proceso</strong> hasta que se protejan los derechos de los trabajadores migrantes y se garantice la libertad de expresión. El mensaje es que el organismo debe cumplir con sus compromisos y valores.
           </p>
           <br />
           {/* ANÁLISIS VISUAL Y SILENCIOS */}
