@@ -40,7 +40,7 @@ const Nota5 = () => {
             Llegamos a la quinta y última nota del análisis, el pilar fundamental de la tesis "El Precio del Espectáculo". Basada en el artículo <a href="https://cnnespanol.cnn.com/2022/11/29/cuantos-muertos-estadios-mundial-qatar-orix" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"¿Cuántos muertos hubo en los estadios..."</a>, esta pieza periodística encapsula la postura editorial de <strong>CNN en Español</strong> en su momento más crítico: **durante el desarrollo mismo del torneo**.
           </p>
           <p>
-            El factor determinante aquí es la **temporalidad**. Publicada en el clímax de la "fiesta del fútbol", CNN decide hacer la pregunta que nadie quería escuchar. La nota inmediatamente expone la gran contradicción en las cifras: el Comité Supremo de Qatar insistía en **tres víctimas mortales** relacionadas con accidentes laborales en los estadios.
+            El factor determinante aquí es la <strong>temporalidad</strong>. Publicada en el clímax de la "fiesta del fútbol", CNN decide hacer la pregunta que nadie quería escuchar. La nota inmediatamente expone la gran contradicción en las cifras: el Comité Supremo de Qatar insistía en <strong>tres víctimas mortales</strong> relacionadas con accidentes laborales en los estadios.
           </p>
 
           {/* RECUADRO DESTACADO */}
@@ -51,7 +51,7 @@ const Nota5 = () => {
           </div>
 
           <p>
-            El análisis de CNN no se detiene en la negación oficial. Contrasta la versión del Comité con la admisión del propio jefe del Mundial, Hassan Al-Thawadi, quien reconoció que la cifra real de trabajadores migrantes muertos en proyectos relacionados ascendía a **"entre 400 y 500"**. Esta discrepancia de cientos de muertes entre las propias autoridades es el núcleo de la denuncia periodística de CNN.
+            El análisis de CNN no se detiene en la negación oficial. Contrasta la versión del Comité con la admisión del propio jefe del Mundial, Hassan Al-Thawadi, quien reconoció que la cifra real de trabajadores migrantes muertos en proyectos relacionados ascendía a <strong>"entre 400 y 500"</strong>. Esta discrepancia de cientos de muertes entre las propias autoridades es el núcleo de la denuncia periodística de CNN.
           </p>
           
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La Inconsistencia de los Datos y el Papel de la OIT</h3>
@@ -62,7 +62,7 @@ const Nota5 = () => {
             La nota cierra el círculo narrativo que hemos analizado:
             <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-700">
                 <li>El artículo fue un acto de resistencia contra el silencio que la FIFA buscaba imponer (Nota 3).</li>
-                <li>Demostró el costo humano y literal de la estrategia de **Soft Power** (Nota 2).</li>
+                <li>Demostró el costo humano y literal de la estrategia de <strong>Soft Power</strong> (Nota 2).</li>
                 <li>Y validó el reclamo urgente de compensación que Amnistía Internacional exigía (Nota 4).</li>
             </ul>
           </p>
