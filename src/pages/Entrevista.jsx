@@ -215,17 +215,6 @@ const Entrevista = () => {
                 </div>
             </div>
 
-            {/* CONCLUSION */}
-            <div className="bg-gray-800 text-white p-8 rounded-lg shadow-xl my-12">
-                <h3 className="text-2xl font-bold text-[#f9ed69] mb-4">Conclusión y reflexiones</h3>
-                <p className="text-lg leading-relaxed">
-                    Las definiciones de la Lic. Ralo Venditti confirman la hipótesis central de este trabajo. Mientras <strong className="text-[#f08a5d]">Diario Olé</strong> se enfocó en la "pasión del hincha" y el éxito logístico (puntos que la entrevistada destaca como claves del éxito qatarí), <strong className="text-[#22d3ee]">CNN</strong> expuso el costo humano de ese éxito.
-                </p>
-                <p className="text-lg leading-relaxed mt-4">
-                    La validación académica de que "Arabia Saudita sigue los pasos de Qatar" demuestra que la cobertura geopolítica de CNN no fue un hecho aislado sino la anticipación de un modelo que llegó para quedarse en el deporte global.
-                </p>
-            </div>
-
             {/* --- Links Ampliatorios --- */}
             <div className="bg-gray-100 p-6 rounded-lg mt-10 text-base">
                 <h4 className="font-bold text-lg mb-2 text-gray-900">

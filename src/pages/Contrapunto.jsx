@@ -12,7 +12,7 @@ const Contrapunto = () => {
         {/* --- Encabezado (Estilo Flashy) --- */}
         <header className="mb-10 border-b-4 border-[#B83B5E] pb-8">
           <p className="text-[#6A2C70] font-bold text-sm tracking-widest uppercase mb-2">
-            La Otra Campana
+            El contrapunto: Olé
           </p>
           <h1 className="text-4xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight">
             La Fiesta en Olé: Cuando la Épica silencia a la Política
