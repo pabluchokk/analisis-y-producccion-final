@@ -37,40 +37,38 @@ const Nota3 = () => {
         {/* CONTENIDO DEL ARTÍCULO */}
         <div className='prose prose-lg lg:prose-xl max-w-none text-gray-800 leading-loose'>
           <p>
-            En el periodismo deportivo tradicional, la elección de una sede mundialista se narra como una carrera olímpica. Pero en la cobertura de <strong>CNN en Español</strong> sobre el Mundial 2034, esa narrativa de competencia desaparece por completo. La nota titulada <a href="https://cnnespanol.cnn.com/2023/10/31/arabia-saudita-se-perfila-unico-candidato-buscara-mundial-2034-orix" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Australia renunció a su candidatura y Arabia Saudita se perfila para organizar el Mundial 2034"</a> no relata una victoria deportiva, relata una <strong>coronación administrativa</strong>.
+            En el periodismo deportivo tradicional, la elección de una sede mundialista se narra con emoción. Pero en la cobertura de <strong>CNN en Español</strong> específicamente sobre el Mundial 2034, esa narrativa de competencia desaparece por completo. La nota titulada <a href="https://cnnespanol.cnn.com/2023/10/31/arabia-saudita-se-perfila-unico-candidato-buscara-mundial-2034-orix" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Australia renunció a su candidatura y Arabia Saudita se perfila para organizar el Mundial 2034"</a> no relata una victoria deportiva, relata un <strong>trámite</strong>.
           </p>
           <p>
-            El encuadre de CNN es de una frialdad quirúrgica. El medio expone cómo la "carrera" terminó antes de empezar: Australia se retiró horas antes de la fecha límite, dejando a Arabia Saudita sola. CNN no lo presenta como una casualidad del destino, sino como la consecuencia lógica de un tablero inclinado. El análisis se centra en las maniobras de la FIFA: acelerar los plazos inesperadamente y restringir la elegibilidad a Asia y Oceanía, movimientos de ajedrez diseñados para dejar a Riad como la única opción viable en el mapa.
+            El medio expone cómo la "carrera" terminó antes de empezar: El análisis se centra en las maniobras de la FIFA: acelerar los plazos (solo 25 días para confirmar interés) y restringir la elegibilidad a Asia y Oceanía por rotación. Estos movimientos, combinados, dejaron a Riyadh como la única opción viable, especialmente tras la retirada de Australia.
           </p>
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              "La postura de CNN es implícita pero demoledora: al presentar la candidatura única como un 'trámite' inevitable, despoja a la FIFA de su máscara democrática y la expone como una corporación que cierra acuerdos geopolíticos a puertas cerradas".
+              "La postura de CNN es demoledora: al presentar la candidatura única como un 'trámite', despoja a la FIFA de su máscara democrática y la expone como una corporación que cierra acuerdos comerciales a puertas cerradas".
             </blockquote>
           </div>
 
           {/* --- SUBTÍTULO CON FRASE ARGENTA --- */}
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">
-            "Billetera Mata Galán": Cuando el Escritorio le gana a la Cancha
+            "Billetera Mata Galán"
           </h3>
           <p>
-            El análisis del discurso es fundamental en esta nota. Se confirma el viejo adagio, pero a escala global: <strong>billetera mata galán</strong>. Australia, con su tradición deportiva (el "galán"), no pudo ni siquiera presentarse ante la maquinaria de recursos ilimitados y acuerdos previos del reino saudí.
+            El análisis del discurso es fundamental en esta nota. Se confirma el viejo dicho, pero a escala global: <strong>billetera mata galán</strong>. Australia, (el "galán" que intentó competir) no pudo presentarse ante la maquinaria de recursos ilimitados. CNN pone la lupa sobre las palabras de Gianni Infantino, presidente de la FIFA, quien celebra públicamente el <strong>"consenso"</strong> y la <strong>"unidad"</strong>, contrastando esta retórica oficial con los hechos: la unidad se logró por la eliminación sistemática de alternativas.
           </p>
           <p>
-            CNN pone la lupa sobre las palabras de Gianni Infantino, presidente de la FIFA, quien celebra públicamente el "consenso" y la "unidad". Sin embargo, el medio contrasta esta retórica oficial con los hechos puros y duros: la "unidad" se logró por la eliminación sistemática de alternativas, no por votación.
+            Esta cobertura pone en evidencia la violación de los propios compromisos que la FIFA adopta en 2017. El problema no es solo que Arabia Saudita sea un país cuestionable; es que la FIFA fue cómplice activa al ignorar sus propios principios para facilitar una candidatura por motivos comerciales.
           </p>
           
-          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La Ingeniería del Consenso y el Silencio Institucional</h3>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El silencio institucional</h3>
           <p>
-            Otro punto fuerte del análisis es lo que la nota sugiere sobre los demás actores del ecosistema. Al resaltar que la Confederación Asiática de Fútbol apoyó en bloque a Arabia Saudita casi de inmediato, CNN dibuja un mapa de lealtades políticas y económicas que trascienden lo deportivo. El acuerdo era vertical.
+            Otro punto fuerte del análisis del papel de los demás actores. Al resaltar que la Confederación Asiática de Fútbol apoyó en bloque a Arabia Saudita, CNN identifica un mapa de lealtades políticas y económicas que trascienden lo deportivo. El resultado final del artículo es contundente: el partido se jugó en el escritorio, y Arabia Saudita ganó por <strong>default</strong>.
           </p>
           <p>
-            Esta cobertura pone en evidencia la violación de los propios compromisos éticos de la FIFA adoptados en 2017. El problema no es solo que Arabia Saudita sea cuestionable; es que la FIFA fue cómplice activo al ignorar sus propios principios para facilitar una candidatura financiada con recursos ilimitados.
+            La nota subraya el riesgo. Mohammed bin Salman, príncipe heredero saudí dijo en Fox News que no le "importaba" si lo llamaban <strong>sportswashing</strong> mientras aumentara el PIB. Este dato, junto con la rapidez del proceso de selección, consolida la tesis de CNN: la FIFA validó el uso del fútbol como una herramienta de inversión puramente egoísta.
           </p>
-          <p>
-            Este artículo funciona como el eslabón perdido en la teoría general del trabajo. Conecta el poder económico del "Nuevo Orden" (Nota 2) con la impunidad en derechos humanos denunciada por Amnistía (Nota 1 y 4). El partido se jugó en los despachos, y Arabia Saudita ganó por walk-over.
-          </p>
+          
 
           {/* --- BANNER PUBLICITARIO EMBEBIDO (Vertical/Branca) --- */}
           <div className="w-full my-10 flex justify-center">
