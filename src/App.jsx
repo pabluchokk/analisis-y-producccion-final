@@ -13,6 +13,7 @@ import Nota5 from './pages/analisis/nota5.jsx';
 
 import Entrevista from './pages/Entrevista.jsx';
 import Contrapunto from './pages/Contrapunto.jsx';
+import Staff from './pages/Staff.jsx';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -40,6 +41,7 @@ const App = () => {
 
           <Route path='/entrevista' element={<Entrevista />}/>
           <Route path='/contrapunto' element={<Contrapunto />}/>
+          <Route path='/staff' element={<Staff />}/>
         </Routes>
       </main>
       <Footer />

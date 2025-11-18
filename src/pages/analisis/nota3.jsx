@@ -1,76 +1,121 @@
 // src/pages/analisis/nota3.jsx
+
 import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Nota3 = () => {
   return (
-    <article className='bg-white'>
-      {/* CONTENEDOR DEL ARTICULO */}
-      <div className='container mx-auto max-w-3xl py-12 px-6'>
+    <article className='bg-white min-h-screen'>
+      {/* CONTENEDOR DEL ARTÍCULO */}
+      <div className='container mx-auto max-w-4xl py-16 px-6 lg:px-8'>
         
-        {/* TITULO */}
-        <header className='mb-8'>
-          <p className='text-blue-600 font-semibold text-lg uppercase tracking-wide'>
-            Análisis de cobertura: CNN
+        {/* TITULO JUGADO */}
+        <header className='mb-10 border-b-4 border-[#F08A5D] pb-8'>
+          <p className='text-[#6A2C70] font-bold text-sm tracking-widest uppercase mb-2'>
+            Análisis de cobertura: CNN en Español
           </p>
-          <h1 className='text-4xl lg:text-5xl font-extrabold text-gray-900 my-3'>
-            La "Coronación" del candidato único: El encuadre político del Mundial 2034 en CNN
+          <h1 className='text-4xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight'>
+            Ganador por default: el ascenso del anfitrión saudí
           </h1>
-          <p className='text-xl lg:text-2xl text-gray-600 italic'>
-            La cobertura de la candidatura única de Arabia Saudita al Mundial 2034 no es presentada como un logro deportivo, sino como una formalidad política y corporativa de la FIFA.
+          <p className='text-xl lg:text-2xl text-gray-600 font-serif leading-relaxed'>
+            Como la FIFA convirtió la elección de la sede más importante del mundo en un simple trámite burocrático sin rivales.
           </p>
         </header>
 
-        {/* IMAGEN  */}
-        <img 
-          src="https://cnnespanol.cnn.com/wp-content/uploads/2023/10/GettyImages-1765275073.jpg?quality=100&strip=info" 
-          alt="Gianni Infantino y el Príncipe heredero saudí" 
-          className="w-full h-auto rounded-lg shadow-lg mb-8"
-        />
+        {/* IMAGEN */}
+        <figure className='mb-12'>
+          <img 
+            src="/arabia2034.jpg" 
+            alt="Infantino y el poder saudí" 
+            className='w-full h-auto rounded-xl shadow-xl object-cover max-h-[500px]'
+          />
+          <figcaption className='mt-3 text-sm text-gray-500 italic text-center'>
+            La foto del acuerdo: Infantino celebra la "unidad" en un proceso donde la competencia brilló por su ausencia.
+          </figcaption>
+        </figure>
 
-        {/* CONTENIDO DEL ARTICULO */}
-        <div className='prose prose-lg lg:prose-xl max-w-none text-gray-800'>
+        {/* CONTENIDO DEL ARTÍCULO */}
+        <div className='prose prose-lg lg:prose-xl max-w-none text-gray-800 leading-loose'>
           <p>
-            Dando continuidad a los análisis previos, esta tercera nota de <strong>CNN en Español</strong> (basada en el artículo <a href='https://cnnespanol.cnn.com/2023/10/31/arabia-saudita-se-perfila-unico-candidato-buscara-mundial-2034-orix' target='_blank' rel="noopener noreferrer">"Arabia Saudita se perfila como único candidato para buscar el Mundial 2034"</a>) se centra en el proceso de selección de la sede. El tono de la nota es clave: no es de celebración, sino de constatación de un hecho político y corporativo.
+            En el periodismo deportivo tradicional, la elección de una sede mundialista se narra como una carrera olímpica. Pero en la cobertura de <strong>CNN en Español</strong> sobre el Mundial 2034, esa narrativa de competencia desaparece por completo. La nota titulada <a href="https://cnnespanol.cnn.com/2023/10/31/arabia-saudita-se-perfila-unico-candidato-buscara-mundial-2034-orix" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Australia renunció a su candidatura y Arabia Saudita se perfila para organizar el Mundial 2034"</a> no relata una victoria deportiva, relata una <strong>coronación administrativa</strong>.
           </p>
           <p>
-            El encuadre del medio sugiere que la "carrera" por la sede del Mundial 2034 nunca fue realmente una competencia. <strong>CNN</strong> resalta que Australia se "retiro" justo antes de la fecha límite, dejando a Arabia Saudita como el "único candidato". La postura del medio no es la de narrar una victoria deportiva, sino la de exponer un proceso que carece de competencia real, lo que refuerza la narrativa de un evento decidido por intereses políticos y económicos más que por méritos deportivos.
-          </p>
-          <p>
-            Al centrarse en el comunicado de Gianni Infantino (presidente de la FIFA) que celebra la "unidad" y el "consenso", <strong>CNN</strong> sutilmente resalta la naturaleza política del proceso. La nota informa que el Mundial se jugará en Asia/Oceanía por primera vez desde 2002, pero no lo presenta como un logro para Arabia Saudita, sino como una formalidad dentro de la estrategia global de la FIFA. El tono es neutral, casi burocrático, lo que contrasta con la narrativa festiva que podría esperarse de un medio deportivo tradicional.
+            El encuadre de CNN es de una frialdad quirúrgica. El medio expone cómo la "carrera" terminó antes de empezar: Australia se retiró horas antes de la fecha límite, dejando a Arabia Saudita sola. CNN no lo presenta como una casualidad del destino, sino como la consecuencia lógica de un tablero inclinado. El análisis se centra en las maniobras de la FIFA: acelerar los plazos inesperadamente y restringir la elegibilidad a Asia y Oceanía, movimientos de ajedrez diseñados para dejar a Riad como la única opción viable en el mapa.
           </p>
 
           {/* RECUADRO DESTACADO */}
-          <blockquote className='border-l-4 border-blue-500 bg-blue-50 p-6 my-8 text-xl font-medium text-gray-700 italic'>
-            "La postura de CNN es implícita: al presentar la candidatura única como un 'trámite' y una 'coronación' inevitable, el medio expone la falta de transparencia y competencia en el proceso de selección, enmarcando a la FIFA como una entidad más interesada en sus propios intereses corporativos que en la integridad deportiva."
-          </blockquote>
+          <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
+            <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
+              "La postura de CNN es implícita pero demoledora: al presentar la candidatura única como un 'trámite' inevitable, despoja a la FIFA de su máscara democrática y la expone como una corporación que cierra acuerdos geopolíticos a puertas cerradas".
+            </blockquote>
+          </div>
 
+          {/* --- SUBTÍTULO CON FRASE ARGENTA --- */}
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">
+            "Billetera Mata Galán": Cuando el Escritorio le gana a la Cancha
+          </h3>
           <p>
-            Mientras un medio como <strong>Diario Olé</strong> podría curbir esta noticia con un enfoque en la "fiesta del fútbol" o como un "Mundial en el desierto", enfoncandose en el lujo futuro, <strong>CNN</strong> mantiene su postura crítica y analítica. Se centra en el <strong>cómo</strong> se tomó la decisión: un proceso acelerado y sin competencia real que allanó el camino para la candidatura de Arabia Saudita.
+            El análisis del discurso es fundamental en esta nota. Se confirma el viejo adagio, pero a escala global: <strong>billetera mata galán</strong>. Australia, con su tradición deportiva (el "galán"), no pudo ni siquiera presentarse ante la maquinaria de recursos ilimitados y acuerdos previos del reino saudí.
           </p>
           <p>
-            Este encuadre refuerza la teoría general del "sportswashing". El análisis de <strong>CNN</strong> no se detiene en la superficie (el evento), sino que profundiza en las estructuras de poder (la FIFA) y las estrategias geopolíticas (el soft power saudí). La "coronación" de Arabia Saudita como sede del Mundial 2034 es presentada no como un triunfo deportivo, sino como la culminación de un proceso político y corporativo que refleja las dinámicas de poder global en el deporte.
+            CNN pone la lupa sobre las palabras de Gianni Infantino, presidente de la FIFA, quien celebra públicamente el "consenso" y la "unidad". Sin embargo, el medio contrasta esta retórica oficial con los hechos puros y duros: la "unidad" se logró por la eliminación sistemática de alternativas, no por votación.
+          </p>
+          
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La Ingeniería del Consenso y el Silencio Institucional</h3>
+          <p>
+            Otro punto fuerte del análisis es lo que la nota sugiere sobre los demás actores del ecosistema. Al resaltar que la Confederación Asiática de Fútbol apoyó en bloque a Arabia Saudita casi de inmediato, CNN dibuja un mapa de lealtades políticas y económicas que trascienden lo deportivo. El acuerdo era vertical.
           </p>
           <p>
-            Al conectar esta nota con los análisis previos, (las críticas de DDHH y la estrategia del "nuevo orden"), <strong>CNN</strong> pinta un cuadro completo. El "precio del espectáculo" es, una vez más, el costo humano, político y ético de un evento que, lejos de ser un simple juego, es una herramienta en el tablero geopolítico global.
+            Esta cobertura pone en evidencia la violación de los propios compromisos éticos de la FIFA adoptados en 2017. El problema no es solo que Arabia Saudita sea cuestionable; es que la FIFA fue cómplice activo al ignorar sus propios principios para facilitar una candidatura financiada con recursos ilimitados.
+          </p>
+          <p>
+            Este artículo funciona como el eslabón perdido en la teoría general del trabajo. Conecta el poder económico del "Nuevo Orden" (Nota 2) con la impunidad en derechos humanos denunciada por Amnistía (Nota 1 y 4). El partido se jugó en los despachos, y Arabia Saudita ganó por walk-over.
           </p>
 
-          {/* LINKS  AMPLIATORIOS */}
-          <div className='bg-gray-100 p-6 rounded-lg mt-10 text-base'>
-            <h4 className='font-bold text-lg mb-2 text-gray-900'>Para ampliar el análisis:</h4>
-            <ul className='list-disc pl-5 space-y-2'>
-              <li>
-                <Link to="/analisis/nota4" className='text-blue-600 hover:underline'>
-                  Siguiente análisis: La conexión con Qatar y la Amnistía Internacional
-                </Link>
+          {/* --- BANNER PUBLICITARIO EMBEBIDO (Vertical/Branca) --- */}
+          <div className="w-full my-10 flex justify-center">
+            <a href="https://www.branca.com.ar" target="_blank" rel="noopener noreferrer" 
+               className="block max-w-sm mx-auto shadow-lg overflow-hidden rounded-lg">
+              <img 
+                src="/anuncio3.jpg" 
+                alt="Publicidad Fernet Branca" 
+                className="w-full h-auto object-contain" 
+              />
+            </a>
+          </div>
+          {/* --- FIN BANNER EMBEBIDO --- */}
+
+          {/* CAJA DE SIGUIENTES PASOS */}
+          <div className='mt-16 p-10 bg-gray-100 rounded-2xl border border-gray-200'>
+            <h4 className='text-2xl font-bold text-[#6A2C70] mb-6 border-b border-gray-300 pb-4'>
+              Continúa la investigación:
+            </h4>
+            <ul className='space-y-6'>
+              <li className='flex items-start group'>
+                <span className='text-[#F08A5D] mr-4 text-2xl transition-transform group-hover:translate-x-1'>➜</span>
+                <div>
+                  <Link to="/analisis/nota4" className='text-lg font-semibold text-gray-800 hover:text-[#F08A5D] transition-colors block'>
+                    Siguiente nota: La "Herida Abierta" de Qatar
+                  </Link>
+                  <span className='text-sm text-gray-600'>Cómo CNN usa a Amnistía Internacional como fuente de verdad.</span>
+                </div>
               </li>
-              <li>
-                <Link to="/contrapunto" className='text-blue-600 hover:underline'>
-                  Análisis contrapunto: Diario Olé
-                </Link>
+              <li className='flex items-start group'>
+                <span className='text-[#B83B5E] mr-4 text-2xl transition-transform group-hover:translate-x-1'>➜</span>
+                <div>
+                  <Link to='/contrapunto' className='text-lg font-semibold text-gray-800 hover:text-[#B83B5E] transition-colors block'>
+                    Ver el Contrapunto: La cobertura de Diario Olé
+                  </Link>
+                  <span className='text-sm text-gray-600'>Donde la política de la FIFA es solo un detalle burocrático.</span>
+                </div>
               </li>
             </ul>
+            
+            <div className="mt-8 pt-6 border-t border-gray-300 text-sm text-right">
+              Fuente original analizada: <a href="https://cnnespanol.cnn.com/2023/10/31/arabia-saudita-se-perfila-unico-candidato-buscara-mundial-2034-orix" target='_blank' rel='noopener noreferrer' className='text-[#06B6D4] hover:text-[#0F172A] font-medium underline decoration-1 underline-offset-2'>CNN en Español</a>
+            </div>
           </div>
+
         </div>
       </div>
     </article>

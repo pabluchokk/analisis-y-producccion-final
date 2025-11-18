@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// --- IMPORTANTE: USA MAYÚSCULA ---
 const Home = () => {
 
-  // --- Datos de tus 5 notas para los teasers ---
   const analysisNotes = [
     {
       title: "DDHH vs. Mundial 2034",
@@ -129,7 +127,7 @@ const Home = () => {
               <div className="bg-white p-8 rounded-lg shadow-xl h-full transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                 <h3 className="text-3xl font-bold text-[#B83B5E] mb-3">El Contrapunto: Olé</h3>
                 <p className="text-lg text-gray-700">
-                  Analizamos la "tendencia diferente". Cómo <strong>Diario Olé</strong> cubre el mismo fenómeno con un encuadre opuesto: la "fiesta" mediática, la épica deportiva y la despolitización del evento.
+                  Analizamos la "tendencia diferente". No hubo silencio total, sino una <strong>jerarquización</strong> donde la euforia de la Selección desplazó a los DDHH a un segundo plano.
                 </p>
               </div>
             </Link>
@@ -140,7 +138,7 @@ const Home = () => {
                               transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
                 <h3 className="text-3xl font-bold text-[#F08A5D] mb-3">La Voz Experta</h3>
                 <p className="text-lg text-gray-700">
-                  Reemplazamos la entrevista con un análisis Q&A del <strong>paper</strong> "Algo más que un Mundial", usando sus conceptos (Soft Power, Diplomacia Deportiva) para validar nuestra teoría.
+                  Dialogamos con la <strong>Lic. Clara Ralo Venditti</strong>, coautora del paper "Qatar 2022", quien analiza la efectividad de la estrategia de Soft Power y el futuro con Arabia Saudita.
                 </p>
               </div>
             </Link>
@@ -149,23 +147,16 @@ const Home = () => {
       </section>
 
       {/* --- 4. SECCIÓN DE PUBLICIDAD (Requerida) --- */}
-      <aside className="bg-gray-100 py-16">
-        <div className="container mx-auto text-center px-6">
-          <h3 className="text-sm font-semibold text-gray-500 mb-6 uppercase tracking-wider">
-            Espacio Publicitario
-          </h3>
-          <div className="flex justify-center gap-8 flex-wrap">
-            <div className="border-2 border-dashed border-gray-300 p-6 bg-white max-w-sm">
-              <p className="font-bold text-gray-800">Amnistía Internacional</p>
-              <p className="text-gray-600">Investigación sobre Derechos Humanos en el Deporte.</p>
-            </div>
-            <div className="border-2 border-dashed border-gray-300 p-6 bg-white max-w-sm">
-              <p className="font-bold text-gray-800">Revista UCINA</p>
-              <p className="text-gray-600">Análisis de Relaciones Internacionales y Soft Power.</p>
-            </div>
+      <div className="w-full my-8 flex justify-center">
+            <a href="https://www.mcdonalds.com.ar" target="_blank" rel="noopener noreferrer" 
+               className="block max-w-sm mx-auto shadow-lg overflow-hidden rounded-lg">
+              <img 
+                src="/anuncio8.jpg" 
+                alt="Publicidad McDonalds Formula 1" 
+                className="w-full h-auto object-contain" 
+              />
+            </a>
           </div>
-        </div>
-      </aside>
     </>
   );
 }

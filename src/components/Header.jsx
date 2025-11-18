@@ -33,9 +33,9 @@ const Header = () => {
               </button>
               <div className="absolute left-0 w-64 bg-white rounded-md shadow-lg z-50 hidden group-hover:block pt-2">
                 <ul className="py-1">
-                  <li><NavLink to="/analisis/nota1" className={dropdownLinkStyle}>Nota 1: DDHH vs. Mundial 2034</NavLink></li>
-                  <li><NavLink to="/analisis/nota2" className={dropdownLinkStyle}>Nota 2: Nuevo Orden Mundial</NavLink></li>
-                  <li><NavLink to="/analisis/nota3" className={dropdownLinkStyle}>Nota 3: Candidato Único</NavLink></li>
+                  <li><NavLink to="/analisis/nota1" className={dropdownLinkStyle}>Nota 1: Se encienden las alarmas</NavLink></li>
+                  <li><NavLink to="/analisis/nota2" className={dropdownLinkStyle}>Nota 2: Cuando la billetera pesa</NavLink></li>
+                  <li><NavLink to="/analisis/nota3" className={dropdownLinkStyle}>Nota 3: Australia renuncia</NavLink></li>
                   <li><NavLink to="/analisis/nota4" className={dropdownLinkStyle}>Nota 4: Herida de Qatar</NavLink></li>
                   <li><NavLink to="/analisis/nota5" className={dropdownLinkStyle}>Nota 5: Muertes en Estadios</NavLink></li>
                 </ul>
