@@ -38,27 +38,30 @@ const Nota4 = () => {
             En el ciclo de noticias vertiginoso del deporte, un año es una eternidad. Mientras la mayoría de los medios deportivos ignoraban el tema, <strong>CNN en Español</strong> rompió esa lógica de consumo rápido con la nota titulada <a href="https://cnnespanol.cnn.com/2023/11/17/amnistia-internacional-abusos-trabajadores-mundial-qatar-2022-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Amnistía Internacional dice que 'persisten los abusos'..."</a>.
           </p>
           <p>
-            La temporalidad es la clave: CNN eligió un encuadre de **periodismo de memoria** en el aniversario, demostrando que su postura no fue una pose temporal. La noticia para la cadena internacional no era la nostalgia por el campeón, sino la **persistencia de la injusticia laboral** que hizo posible el torneo.
+            El factor más revelador del artículo es su temporalidad. Publicado en el aniversario, el medio cita el informe de Amnistía que advierte que el legado para los trabajadores migrantes está en <strong>"grave peligro"</strong>. La tesis de CNN es que, al atenuarse el resplandor de los focos mediáticos, también lo hizo la presión para lograr condiciones justas.
           </p>
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              "El mensaje de Amnistía Internacional es claro: 'al igual que se atenuó el resplandor de los focos [...] también lo hizo la presión del gobierno [de Qatar]'. CNN se niega a que la deuda humana sea olvidada".
+              "El mensaje es claro: la Copa se levantó, pero la deuda humana sigue impaga. Amnistía Internacional denuncia que las reformas fueron <strong>introducidas tardíamente y aplicadas débilmente</strong> por el gobierno qatarí".
             </blockquote>
           </div>
 
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La Fuente como Veredicto</h3>
           <p>
-            El análisis de las fuentes es crucial: CNN le cede el micrófono casi por completo a Steve Cockburn, jefe de Justicia Económica y Social de Amnistía Internacional. No hay un intento forzado de "dos campanas" para "empatar" el argumento. El medio valida la denuncia de la ONG, que afirma que las reformas de Qatar fueron introducidas tardíamente y **aplicadas débilmente**.
+            El análisis de las fuentes es crucial: CNN le cede el micrófono a Steve Cockburn para denunciar que Qatar falló en investigar <strong>"miles" de muertes</strong> a pesar de indicios de vínculos con condiciones de trabajo inseguras. Esta falta de registro impide que las familias reciban indemnización económica.
           </p>
           <p>
-            Esto transforma la nota en un **puente conceptual**. Conecta la "impunidad" percibida en Qatar 2022 con la inminente coronación de Arabia Saudita (Nota 3). La postura implícita de CNN es de advertencia: el "legado" de Qatar no es la reforma, sino el abandono de los trabajadores, un riesgo que se traslada al Mundial 2034.
+            Esto transforma la nota en un <strong>puente conceptual</strong>. La postura implícita de CNN es de advertencia: si el "legado" de Qatar 2022 es el abandono de los trabajadores, ¿qué garantías existen para el próximo megaevento en la región (Arabia Saudita 2034)?
           </p>
           
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Contraste con el Silencio de la FIFA</h3>
           <p>
-            La cobertura expone la complicidad institucional. Si bien la FIFA intentó defenderse diciendo que "se han producido avances significativos", el medio contrasta esa retórica con la condena de AI. La FIFA cuenta con que el público olvide el costo político una vez que se consagra el campeón. Al traer el tema de vuelta, CNN rompe el pacto de silencio del "sportswashing".
+            El valor de esta nota radica en su soledad: en el ecosistema de medios deportivos, el tema de los trabajadores migrantes desapareció de la agenda el día después de la final. Al traerlo de vuelta, CNN rompe el pacto de silencio tácito del "sportswashing", que cuenta con que el público olvide el costo político una vez que se consagra el campeón.
+          </p>
+          <p>
+            CNN recuerda al lector que el "precio del espectáculo" se paga, muchas veces, con vidas. Esto marca el contraste definitivo con medios deportivos tradicionales, que evitan la interpelación ética para mantener la narrativa de la celebración.
           </p>
 
           {/* CAJA DE SIGUIENTES PASOS */}
