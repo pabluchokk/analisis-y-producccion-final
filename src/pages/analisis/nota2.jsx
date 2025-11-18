@@ -41,33 +41,40 @@ const Nota2 = () => {
             Si la cobertura de un medio deportivo tradicional se pregunta "¿Cómo formará el equipo?", la cobertura de <strong>CNN en Español</strong> sobre el ascenso del fútbol árabe les lleva a preguntarse: "¿Quién es el dueño de la pelota?". La nota titulada <a href="https://cnnespanol.cnn.com/2023/09/20/arabia-saudita-alterar-orden-mundial-futbol-motivos-podrian-sorprenderte-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Arabia Saudita intenta alterar el orden mundial del fútbol. Los motivos podrían sorprenderte"</a> marca un quiebre definitivo: el fútbol ha dejado de ser un deporte para convertirse en una industria extractiva de influencia.
           </p>
           <p>
-            El encuadre de CNN es brutalmente honesto. No se habla de "fichajes estrella", "mercado de pases" ni de "la liga de los sueños". Se habla de <strong>activos estatales</strong>. Al vincular directamente la Liga Saudí con la "Visión 2030" y el Fondo de Inversión Pública (PIF), el medio despoja al fútbol de su romanticismo y lo expone como lo que es en este contexto: una herramienta de diversificación económica para un país que busca sobrevivir al fin de la era del petróleo.
+            No se habla de "fichajes estrella", "mercado de pases" ni de "la liga donde los mejores juegan". Se habla de <strong>activos estatales</strong>. Al vincular directamente la Liga Saudí con la "Visión 2030" y el Fondo de Inversión Pública (PIF), el medio separa al fútbol de su romanticismo y lo expone como lo que es en este contexto: una herramienta para un país que busca sobrevivir al fin de la era del petróleo.
           </p>
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              "CNN no narra una competencia deportiva, narra un movimiento tectónico en el poder global. Los goles de Cristiano Ronaldo son anecdóticos; lo relevante es el mensaje de fuerza financiera que su presencia envía a Occidente".
+              "CNN no narra una competencia deportiva, narra un negocio en el poder global. Los goles de Cristiano Ronaldo son pasan por alto; lo relevante es el mensaje de fuerza financiera que su presencia envía a Occidente".
             </blockquote>
           </div>
 
-          {/* LA FRASE ARGENTA */}
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">
-            "Billetera Mata Galán": La Estrategia del Fondo Soberano
+            "La plata esta para gastarla"
           </h3>
           <p>
-            CNN confirma la vigencia geopolítica del viejo dicho: **billetera mata galán**. La "historia" y la "tradición" de los clubes europeos (el galán) ya no pueden competir contra la liquidez ilimitada del Fondo Soberano Saudí (la billetera). El lenguaje utilizado en la nota es el de las finanzas, no el del vestuario. Términos como "disrupción", "inversión soberana" y "poder blando" dominan el texto.
+            La "historia" y la "tradición" de los clubes europeos ya no pueden competir contra la el poderío económico del Fondo Soberano Saudí, donde para aquel jugador que pasa sus últimos días como profesional, ve con buenos ojos la oferta saudí. El lenguaje utilizado en la nota es el de las finanzas, luego lo que sucede en la cancha pasa a un segundo plano.
           </p>
           <p>
-            La comparación que establece la nota es letal para la narrativa romántica: pone al fútbol en la misma bolsa que el Golf (LIV) y la Fórmula 1. Para el encuadre de CNN, no hay diferencia entre un Gran Premio y un partido de la liga local; ambos son vitrinas globales compradas al contado para lavar la imagen del reino, atraer turismo de lujo y legitimar al régimen ante la comunidad internacional.
+            La nota pone al fútbol en la misma bolsa que el Golf (LIV) y la Fórmula 1. Para el encuadre de CNN, no hay diferencia entre un Gran Premio y un partido de la liga local; ambos son vitrinas globales compradas al contado para lavar la imagen del reino, atraer turismo de lujo y legitimar al régimen ante la comunidad internacional.
           </p>
 
-          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Silencio del Hincha</h3>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Nuevo Contrato Social</h3>
           <p>
-            Lo que brilla por su ausencia en esta nota es, irónicamente, el hincha. No hay testimonios de fanáticos saudíes, no hay análisis tácticos sobre cómo jugará Benzema o Neymar, no hay color de las gradas. En esta ecuación geopolítica de CNN, la pasión es irrelevante. Lo único que importa es el retorno de la inversión (ROI) en términos de imagen.
+            La nota introduce un concepto fundamental: el <strong>nuevo contrato social</strong> con la Generación Z. La fórmula es simple: "Quieres a Ronaldo? Ya lo tienes. [...] Pero no nos cuestiones".
           </p>
           <p>
-            Este vacío es el argumento final de la teoría del trabajo: cuando el deporte se vuelve política de estado, el juego pasa a un segundo plano. CNN lo cubre como tal, advirtiendo al lector que lo que está viendo no es el crecimiento orgánico de una liga, sino la construcción artificial de un escenario de poder.
+            Esta dinámica convierte a los futbolistas en algo más que empleados. El profesor Simon Chadwick explica que los jugadores se están convirtiendo en <strong>"peones geopolíticos"</strong>. Las grandes informaciónes sobre los salarios astronómicos no es coincidencia, sino que sirve a un propósito: señalar al mundo el poder ilimitado del reino.
+          </p>
+
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Silencio de la platea</h3>
+          <p>
+            Lo que brilla por su ausencia en esta nota es, irónicamente, el hincha. No hay testimonios de fanáticos saudíes, no hay análisis tácticos sobre cómo jugarán las estrellas como Benzema o Ronaldo, no hay color de las gradas. En esta contexto de CNN, la pasión es irrelevante. Lo único que importa es el retorno de la inversión en términos de imagen.
+          </p>
+          <p>
+            Cuando el deporte se vuelve política de estado, el juego pasa a un segundo plano. CNN lo cubre como tal, advirtiendo al lector que lo que está viendo no es el crecimiento orgánico de una liga, sino la construcción artificial de un escenario de poder.
           </p>
 
           {/* BANNER PUBLICITARIO EMBEBIDO */}
