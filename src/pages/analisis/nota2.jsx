@@ -123,7 +123,7 @@ const Nota2 = () => {
                 <span className='text-[#F08A5D] mr-4 text-2xl transition-transform group-hover:translate-x-1'>➜</span>
                 <div>
                   <Link to="/analisis/nota3" className='text-lg font-semibold text-gray-800 hover:text-[#F08A5D] transition-colors block'>
-                    Siguiente nota: La "Coronación" del Candidato
+                    Siguiente nota: Ganador por default: el ascenso saudí
                   </Link>
                   <span className='text-sm text-gray-600'>Cómo la FIFA facilitó el camino para el Mundial 2034.</span>
                 </div>

@@ -15,7 +15,7 @@ const Nota3 = () => {
             Análisis de cobertura: CNN en Español
           </p>
           <h1 className='text-4xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight'>
-            Ganador por default: el ascenso del anfitrión saudí
+            Ganador por default: el ascenso saudí
           </h1>
           <p className='text-xl lg:text-2xl text-gray-600 font-serif leading-relaxed'>
             Como la FIFA convirtió la elección de la sede más importante del mundo en un simple trámite burocrático sin rivales.
