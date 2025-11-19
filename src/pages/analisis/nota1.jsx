@@ -24,11 +24,11 @@ const Nota1 = () => {
         <figure className='mb-12'>
           <img 
             src="/mundialArabia.jpg" 
-            alt="Proyecto de estadio en Arabia Saudita" 
+            alt="Proyecto de Estadio Aramco en Arabia Saudita" 
             className='w-full h-auto rounded-xl shadow-xl object-cover max-h-[500px]'
           />
           <figcaption className='mt-3 text-sm text-gray-500 italic text-center'>
-            La imagen del poder: CNN pone el foco en lo "humano" por sobre lo "comercial".
+            La imagen del poder: CNN pone el foco en lo "humano" por sobre lo "comercial" (Maqueta del Estadio Aramco).
           </figcaption>
         </figure>
 
@@ -37,38 +37,63 @@ const Nota1 = () => {
           <p>
             La nota de <strong>CNN en Español</strong>(<a href="https://cnnespanol.cnn.com/2024/12/11/deportes/arabia-saudita-sede-mundial-2034-criticas-grupos-derechos-humanos-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Arabia Saudita será sede del mundial de 2034; defensores de derechos humanos expresan preocupación"</a>) rompe con la típica de la prensa deportiva al decir que la designación de Arabia Saudita como única candidata para 2034 "no fue una sorpresa". El medio utiliza el anuncio oficial solo como disparador, pero rápidamente se enfoca en la <strong>interpelación ética</strong> que surge desde Human Rights Watch (HRW) y Amnistía Internacional.
           </p>
+          <p>
+            Si bien la candidatura de España, Portugal y Marruecos no pasan con las manos limpias tampoco, todos los reflectores se los llevó la elección de Arabia Saudita para albergar la Copa del Mundo en 2034.
+          </p>
           <br />
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              Michael Page, de Human Rights Watch, advirtió del <strong> inimaginable costo humano'</strong> que supondría acoger el mayor acontecimiento deportivo del mundo".
+              Michael Page, de Human Rights Watch, advirtió del <strong>'inimaginable costo humano'</strong> que supondría acoger el mayor acontecimiento deportivo del mundo".
             </blockquote>
           </div>
 
           <p>
-            Al detallar preocupaciones específicas —libertad de expresión, derechos LGBTQ+, condiciones laborales— el medio construye un marco de lectura donde es imposible disociar el fútbol de la política. No es un "dato de color" al final del texto; es la estructura misma de la información.
+            Y es que el contexto en el que se percibe actualmente a los gobiernos de Medio Oriente no es el mejor, donde varios grupos de derechos humanos advierten problemas en dicho país, como el abuso de los trabajadores inmigrantes, la libertad de expresión y los derechos de los grupos minoritarios.
+          </p>
+          <br />
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El dineral saudí</h3>
+          <p>
+            No es una novedad que el gobierno árabe cuenta con lo que pareciera arcas infinitas de plata, a través de su fondo soberano, el Public Investiment Fund (PIF), Arabia Saudita invierte <strong>miles de millones de dólares</strong> año a año para poder atraer a los deportes en Medio Oriente, lo hizo con el Golf, el Boxeo, los Esports (deportes electrónicos) y la Fórmula 1.
+          </p>
+          <p>
+            Dichas inversiones forman parte de la Saudi Vision 2030, un proyecto propuesto por el príncipe heredero Mohammed bin Salman (MBS) para situar a Arabia Saudita como uno de los países líderes del mundo.
+          </p>
+
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El frente del fútbol</h3>
+          <p>
+            Muchas de las inversiones también fueron dirigidas al sector del fútbol, por muchos considerado el deporte más popular del mundo. Y es que recientemente, las inversiones saudíes tomaron mayor relevancia en el panorama, con la compra del club histórico de la Premier League inglesa, <strong>Newcastle United</strong>, o la transformacion de su propia liga, la Saudi Pro League, en el hogar de leyendas del deporte como Cristiano Ronaldo, Karim Benzema o Neymar Jr. Además de mejorar las relaciones con el presidente de la FIFA, Gianni Infantino.
+          </p>
+          <p>
+            Y esa misión ya esta dando frutos, con la organizacion del certámen mundial en 2034, y el país la recibe con ansias, preparando grandes proyectos de infraestructura, como también la construccion y renovacion de al menos 11 estadios, junto con muchas expansiones de hoteles.
+          </p>
+          <p>
+            Pero bajo toda esta fachada, diversos grupos de derechos humanos suponen que, al igual que Qatar 2022, este mundial tendrá un costo.
+          </p>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La reacción de los grupos defensores</h3>
+          <p>
+            Un informe de Human Rights Watch sostiene que el gobierno saudí utiliza el torneo para <strong>"lavar su mala reputacion en materia de derechos humanos"</strong> <i>(Sportswashing)</i>.
+          </p>
+          <p>
+            El informe retrata las pobres condiciones laborales de los trabajadores inmigrantes que no ven de la misma manera esta noticia que los demás, pues significa van a amplificarse los abusos generalizados, la sustitución de contratos, las altísimas tarifas de contratación, entre otras malas prácticas laborales. Y los trabajadores no son los únicos que se preocupan por la noticia, los grupos LGBTQ+, los derechos de las mujeres y la libertad de prensa,
           </p>
           <br />
           <p>
-            El medio resalta en la hipocresía institucional al contrastar la candidatura con la propia política de derechos humanos de la FIFA, adoptada en 2017. Para CNN, el problema no es solo que Arabia Saudita sea un país cuestionable, sino que la FIFA es cómplice activo al permitir que los principios que dice defender sean ignorados para facilitar una candidatura financiada con recursos ilimitados. Es un fracaso ético de la gobernanza deportiva global.
+            La FIFA en un informe reciente cataloga el riesgo para los derechos humanos en esta candidatura como <strong>"medio"</strong>, segun informacion proveniente un grupo de abogados <strong>AS&H Clifford</strong>. En este documento, sostiene que <i>"existe un buen potencial de que acoger la competicion pueda ayudar a contribuir a impactos positivos sobre los derechos humanos en el contexto de la Visión 2030 de Arabia Saudita"</i>. 
           </p>
           <br />
           <p>
-            El rigor periodístico se demuestra en la sustancia de las demandas: las ONGs no piden la cancelación, sino que <strong>instan a la FIFA a detener el proceso</strong> hasta que se protejan los derechos de los trabajadores migrantes y se garantice la libertad de expresión. El mensaje es que el organismo debe cumplir con sus compromisos y valores.
-          </p>
-          <br />
-          {/* ANÁLISIS VISUAL Y SILENCIOS */}
-          <p>
-            La elección de las imágenes es algo importante a remarcar. A diferencia de medios como <em>Olé</em>, que ilustran estas noticias con imágenes espectaculares de estadios, CNN pone el lente en los empresarios fríos o fotos de archivo que remiten al contexto social. La imagen no busca seducir al hincha, sino documentar un acuerdo de poder.
+            Pero Lina al-Hathoul, Jefa de Seguimiento y Defensa de ALQST for Human Rights, cuestionó este informe, sosteniendo que ninguna organización de derechos humanos ha podido trabajar en Arabia Saudita para corroborar la legitimidad de estos datos.
           </p>
           <br />
           <p>
-            Igualmente significativo es lo que la nota <strong>silencia</strong>. Las promesas de modernización o los beneficios económicos, argumentos centrales de la gacetilla oficial de la candidatura, aquí aparecen minimizados. No hay un intento de "balancear" la crítica con la propaganda oficial; la postura implícita es que la violación de derechos no admite empates técnicos ni justificaciones comerciales.
+            Hay diversos casos de encarcelamientos por formar parte de grupos de derechos humanos, incluso hasta por simples tuits, y las consecuencias pueden llegar a ser letales, donde en el año 2024, se reportan hasta <strong>300 personas ejecutadas</strong>. Arabia Saudita se transformó en un <strong>estado policial puro</strong>, de que si bien todos los países violan los derechos humanos, el caso de Arabia Saudita, bajo MBS, cruzó una línea roja.
           </p>
           <br />
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El pedido de Human Rights Watch</h3>
           <p>
-            Este enfoque marca el contraste definitivo con medios deportivos tradicionales. Mientras la prensa especializada tiende a compartimentar la política para no manchar la pelota, CNN fusiona ambos mundos, recordando al lector que el "precio del espectáculo" se paga, muchas veces, con libertades individuales.
+            HRW le pidió a la FIFA posponer la confirmacion de Arabia Saudita como sede del Mundial 2034 hasta haya una proteccion por las condiciones laborales de los trabajadores y de las mujeres. También pidió que Arabia Saudita se comprometa con los derechos humanos y permita la supervision de los mismos en el país.
           </p>
 
           {/* CAJA DE SIGUIENTES PASOS */}

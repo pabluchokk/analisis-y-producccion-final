@@ -25,7 +25,7 @@ const Nota5 = () => {
         {/* IMAGEN */}
         <figure className='mb-12'>
           <img 
-            src="/workers.jpg" // Asegurate que esta imagen esté en /public
+            src="/workers.jpg"
             alt="Trabajadores migrantes en Qatar" 
             className='w-full h-auto rounded-xl shadow-xl object-cover max-h-[500px]'
           />
