@@ -38,49 +38,71 @@ const Nota2 = () => {
         {/* CONTENIDO DEL ARTÍCULO */}
         <div className='prose prose-lg lg:prose-xl max-w-none text-gray-800 leading-loose'>
           <p>
-            Si la cobertura de un medio deportivo tradicional se pregunta "¿Cómo formará el equipo?", la cobertura de <strong>CNN en Español</strong> sobre el ascenso del fútbol árabe les lleva a preguntarse: "¿Quién es el dueño de la pelota?". La nota titulada <a href="https://cnnespanol.cnn.com/2023/09/20/arabia-saudita-alterar-orden-mundial-futbol-motivos-podrian-sorprenderte-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Arabia Saudita intenta alterar el orden mundial del fútbol. Los motivos podrían sorprenderte"</a> marca un quiebre definitivo: el fútbol ha dejado de ser un deporte para convertirse en una industria extractiva de influencia.
+            La cobertura de <strong>CNN en Español</strong> detalla el ascenso del fútbol árabe les lleva a preguntarse: hasta donde llega el poderío saudí . La nota titulada <a href="https://cnnespanol.cnn.com/2023/09/20/arabia-saudita-alterar-orden-mundial-futbol-motivos-podrian-sorprenderte-trax" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"Arabia Saudita intenta alterar el orden mundial del fútbol. Los motivos podrían sorprenderte"</a> marca un quiebre definitivo: el fútbol ha dejado de ser un deporte para convertirse en una industria extractiva de influencia.
+          </p>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El historial de fichajes estelares</h3>
+          <p>
+            La nota abre con el relato cuando el club saudita Al-Hilal plantó una oferta de 1.100 millones de dólares para fichar a la estrella mundial, Kylian Mbappé, con un salario de 775 millones de dólares al año para el francés. Esta maniobre fue criticada por los críticos del <i>sportswashing</i>.
           </p>
           <p>
-            No se habla de "fichajes estrella", "mercado de pases" ni de "la liga donde los mejores juegan". Se habla de <strong>activos estatales</strong>. Al vincular directamente la Liga Saudí con la "Visión 2030" y el Fondo de Inversión Pública (PIF), el medio separa al fútbol de su romanticismo y lo expone como lo que es en este contexto: una herramienta para un país que busca sobrevivir al fin de la era del petróleo.
+            El fichaje no se dió, pero luego, el club árabe puso el foco en el astro brasileño, Neymar Jr. que el si aceptó la oferta por la suma de unos 98,5 millones más añadidos.
+          </p>
+          <p>
+            Y este es un solo caso, sin contar los diversos traspasos de unos 94 jugadores extranjeros provenientes de las cinco grandes ligas europeas, desembolsando la suma de unos 1.000 millones de dólares.
+          </p>
+          <p>
+            Pero los casos más destacados que pasaron a formar parte de la Saudi Pro League fueron el del ganador del Balón de Oro 2022, Karim Benzema, que se incorporó al Al-Ittihad, con sumas exorbitantes de dinero como ya se menciono anteriormente.
           </p>
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              "CNN no narra una competencia deportiva, narra un negocio en el poder global. Los goles de Cristiano Ronaldo son pasan por alto; lo relevante es el mensaje de fuerza financiera que su presencia envía a Occidente".
+              "Los nuevos jugadores se unen al cinco veces Balón de Oro, Cristiano Ronaldo, quien firmó un contrato de dos años con el Al-Nassr, por el que ganará la asombrosa cifra de US$ 200 millones al año, según los medios estatales sauditas, lo que le convierte en el futbolista mejor pagado del mundo.".
             </blockquote>
           </div>
 
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">
-            "La plata esta para gastarla"
+            "La pasión árabe por el fútbol"
           </h3>
           <p>
-            La "historia" y la "tradición" de los clubes europeos ya no pueden competir contra la el poderío económico del Fondo Soberano Saudí, donde para aquel jugador que pasa sus últimos días como profesional, ve con buenos ojos la oferta saudí. El lenguaje utilizado en la nota es el de las finanzas, luego lo que sucede en la cancha pasa a un segundo plano.
+            Arabia Saudita, al igual que otros países como China o Qatar en su momento, invierten demasiada plata con el fin de convertirse en potencias futbolísticas.
           </p>
           <p>
-            La nota pone al fútbol en la misma bolsa que el Golf (LIV) y la Fórmula 1. Para el encuadre de CNN, no hay diferencia entre un Gran Premio y un partido de la liga local; ambos son vitrinas globales compradas al contado para lavar la imagen del reino, atraer turismo de lujo y legitimar al régimen ante la comunidad internacional.
+            Y estos fichajes sumado el crecimiento de popularidad de la liga local y la selección nacional, compras de clubes de fútbol como el Newcastle United, o la organización de eventos como el Mundial de Clubes 2023 y su candidatura a ser la sede de la Copa Asiática 2027, y la ya confirmada Copa del Mundo en 2034, fueron ingredientes que conforman esta bola de nieve.
           </p>
 
-          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Nuevo Contrato Social</h3>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">Un nuevo contrato social</h3>
           <p>
-            La nota introduce un concepto fundamental: el <strong>nuevo contrato social</strong> con la Generación Z. La fórmula es simple: "Quieres a Ronaldo? Ya lo tienes. [...] Pero no nos cuestiones".
+            El páis tiene un público muy joven, del que de al menos 32,2 millones de personas, casi el 42% son extranjeros y el 51% de la poblacion tiene menos de 30 años, muchos de estos se cree que al menos un 80% tiene relacion con el fútbol.
           </p>
           <p>
-            Esta dinámica convierte a los futbolistas en algo más que empleados. El profesor Simon Chadwick explica que los jugadores se están convirtiendo en <strong>"peones geopolíticos"</strong>. Las grandes informaciónes sobre los salarios astronómicos no es coincidencia, sino que sirve a un propósito: señalar al mundo el poder ilimitado del reino.
+            Simon Chadwick, profesor de Deporte y Economía Geopolítica en la Escuela de Negocio SKEMA, dice que lo que esta sucediendo en Arabia Saudita es la aparición de un nuevo <strong>contrato social</strong>, que dicta que es esencial satisfacer las necesidades de la generación Z, siempre y cuando no cuestionen al gobierno. Pero aun así, hay casos donde este contrato, no es respetado, en esas situaciones, se procede a detener a aquellos que protesten contra las autoridades, incluso hay casos donde los ejecutan.
+          </p>
+          <p>
+            El grupo de derechos humanos Amnistía Internacional identificó la creciente represión de la libertad de expresión y un mayor uso de leyes antiterroristas y contra la ciberdelincuencia para silenciar su disidencia. En 2022, la organización registró el mayor número de ejecuciones en el país, siendo 196 personas ejecutadas.
           </p>
 
-          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Silencio de la platea</h3>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La respuesta del reino</h3>
           <p>
-            Lo que brilla por su ausencia en esta nota es, irónicamente, el hincha. No hay testimonios de fanáticos saudíes, no hay análisis tácticos sobre cómo jugarán las estrellas como Benzema o Ronaldo, no hay color de las gradas. En esta contexto de CNN, la pasión es irrelevante. Lo único que importa es el retorno de la inversión en términos de imagen.
+            Ante las acusaciones de <i>sportswashing</i>, el principe Abdulaziz bin Turki Al-Faisal, ministro de Deportes declaro: <i><strong>"La gente que no conoce Arabia Saudita, que nunca ha estado en Arabia Saudita, sale y habla de ella como si hubiera vivido allí 30 o 40 años. Por eso, siempre le digo a la gente que venga a Arabia Saudita. Vengan a ver Arabia Saudita"</strong></i>
           </p>
+
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La expansion a otros deportes</h3>
           <p>
-            Cuando el deporte se vuelve política de estado, el juego pasa a un segundo plano. CNN lo cubre como tal, advirtiendo al lector que lo que está viendo no es el crecimiento orgánico de una liga, sino la construcción artificial de un escenario de poder.
+            Los árabes no solo ponen su mirada en el fútbol, sino que buscan ampliar sus horizones en distintas disciplinas, con la industria del golf por poner un ejemplo. En 2021, el PIF, financió el LIV Golf, atrayendo a muchos jugadores de todo el mundo a que formen parte de su propia liga. Lo mismo ocurrio en el ámbito del automovilismo, con el Gran Premio de Jeddah que forma parte del calendario de Fórmula 1 desde 2021.
           </p>
+          <br />
+          <hr />
+          <br />
+          <p>
+          En síntesis, la nota relata como Araba Saudita en su búsqueda de expandir su influencia por medio de distintas disciplinas y de esa forma "lavar su cara" ante el mundo, pasando por alto las violaciones a los derechos humanos, estos esfuerzos son focalizados en el fútbol, con el fichaje de grandes estrellas para que traigan la mirada mundial a la Saudi Pro League.
+          </p>
+          
 
           {/* BANNER PUBLICITARIO EMBEBIDO */}
           <div className="w-full my-8 flex justify-center">
             <a href="https://www.nike.com.ar" target="_blank" rel="noopener noreferrer" 
-               className="block max-w-sm mx-auto shadow-lg overflow-hidden rounded-lg">
+                className="block max-w-sm mx-auto shadow-lg overflow-hidden rounded-lg">
               <img 
                 src="/anuncio2.jpg" // Usa el nombre de la imagen que descargaste
                 alt="Publicidad Nike" 

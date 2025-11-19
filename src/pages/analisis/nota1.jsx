@@ -106,7 +106,7 @@ const Nota1 = () => {
                 <span className='text-[#F08A5D] mr-4 text-2xl transition-transform group-hover:translate-x-1'>➜</span>
                 <div>
                   <Link to="/analisis/nota2" className='text-lg font-semibold text-gray-800 hover:text-[#F08A5D] transition-colors block'>
-                    Siguiente nota: El "Nuevo Orden Mundial"
+                    Siguiente nota: "Cuando la billetera atrae a las estrellas"
                   </Link>
                   <span className='text-sm text-gray-600'>Cómo CNN analiza la estrategia económica detrás de los fichajes.</span>
                 </div>
