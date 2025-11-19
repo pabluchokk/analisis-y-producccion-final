@@ -15,10 +15,10 @@ const Nota5 = () => {
             Análisis de cobertura: CNN
           </p>
           <h1 className='text-4xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight'>
-            La Pregunta Prohibida: CNN y el Cálculo Mortal de la Copa
+            La Pregunta Prohibida de CNN, ¿cuál fue el costo humano de Mundial 2022?
           </h1>
           <p className='text-xl lg:text-2xl text-gray-600 font-serif leading-relaxed'>
-            En pleno éxtasis mundialista, CNN rompe el pacto de silencio con la nota más incómoda: un recuento forense de las vidas que costó el espectáculo.
+            En medio del Mundial se hizo la pregunta más incómoda, ¿bajo cuantos cuerpos se construyeron esos estadios?
           </p>
         </header>
 
@@ -30,45 +30,48 @@ const Nota5 = () => {
             className='w-full h-auto rounded-xl shadow-xl object-cover max-h-[500px]'
           />
           <figcaption className='mt-3 text-sm text-gray-500 italic text-center'>
-            La otra cara del estadio: CNN ilustra no con la obra terminada, sino con los obreros que la hicieron posible.
+            La otra cara del estadio: antes de que llegaran las estrellas y los fanáticos, primero estuvieron los trabajadores.
           </figcaption>
         </figure>
 
         {/* CONTENIDO DEL ARTÍCULO (TEXTO ACTUALIZADO CON CIFRAS) */}
         <div className='prose prose-lg lg:prose-xl max-w-none text-gray-800 leading-loose'>
           <p>
-            Llegamos a la quinta y última nota del análisis, el pilar fundamental de la tesis "El Precio del Espectáculo". Basada en el artículo <a href="https://cnnespanol.cnn.com/2022/11/29/cuantos-muertos-estadios-mundial-qatar-orix" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"¿Cuántos muertos hubo en los estadios..."</a>, esta pieza periodística encapsula la postura editorial de <strong>CNN en Español</strong> en su momento más crítico: **durante el desarrollo mismo del torneo**.
+            El pilar fundamental del análisis de la cobertura, "El Precio del Espectáculo". Basada en el artículo <a href="https://cnnespanol.cnn.com/2022/11/29/cuantos-muertos-estadios-mundial-qatar-orix" target="_blank" rel="noopener noreferrer" className="text-[#B83B5E] font-bold hover:text-[#6A2C70] transition-colors underline decoration-2 underline-offset-4">"¿Cuántos muertos dejó la construcción de los estadios para el Mundial en Qatar? Esto es lo que sabemos"</a>, esta pieza periodística retrata la postura editorial de <strong>CNN en Español</strong> en su momento más crítico: <strong>en pleno desarrollo de la Copa del Mundo</strong>.
           </p>
           <p>
-            El factor determinante aquí es la <strong>temporalidad</strong>. Publicada en el clímax de la "fiesta del fútbol", CNN decide hacer la pregunta que nadie quería escuchar. La nota inmediatamente expone la gran contradicción en las cifras: el Comité Supremo de Qatar insistía en <strong>tres víctimas mortales</strong> relacionadas con accidentes laborales en los estadios.
+            Y este factor es muy importante, la <strong>temporalidad</strong>. CNN decide hacer la pregunta que nadie quería escuchar. Donde desde 2010, cuando se confirmó a Qatar como sede del Mundial, y hasta la fecha, se repotaron cifras de hasta 6500 trabajadores muertos por las pobres condiciones laborales. Esta cifra fue desmentida por el Comite organizador del mundial en Qatar, donde solo confirmó <strong>tres</strong> muertes por accidentes laborales.
           </p>
 
           {/* RECUADRO DESTACADO */}
           <div className='my-14 p-10 bg-gray-50 border-l-8 border-[#6A2C70] rounded-r-xl shadow-sm'>
             <blockquote className='text-2xl font-medium text-gray-700 italic leading-relaxed'>
-              "Al preguntar '¿Cuántos muertos?', CNN no busca una simple cifra estadística. Utiliza la pregunta retórica para afirmar una tesis política: los números oficiales son una mentira de estado diseñada para ocultar una tragedia humanitaria".
+              "Esto es algo que debe quedar absolutamente claro. Absolutamente claro. El número de víctimas mortales en los estadios de la Copa del Mundo que están relacionadas con el trabajo son tres víctimas mortales. Hay algo más de 30 víctimas mortales que no están relacionadas con el trabajo". - Nasser al Khater (2021)
             </blockquote>
           </div>
 
           <p>
-            El análisis de CNN no se detiene en la negación oficial. Contrasta la versión del Comité con la admisión del propio jefe del Mundial, Hassan Al-Thawadi, quien reconoció que la cifra real de trabajadores migrantes muertos en proyectos relacionados ascendía a <strong>"entre 400 y 500"</strong>. Esta discrepancia de cientos de muertes entre las propias autoridades es el núcleo de la denuncia periodística de CNN.
+            Pero tras el comienzo del mundial, esa frase cambió y contrasta con la versión de Khater, Hassan Al-Thawadi, jefe máximo del Mundial de Qatar, reconoció que la cifra real de trabajadores migrantes muertos en la construcción de los estadios ascendía a <strong>"entre 400 y 500"</strong>.
           </p>
           
-          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">La Inconsistencia de los Datos y el Papel de la OIT</h3>
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">El Papel de la OIT</h3>
           <p>
-            El medio refuerza su postura citando fuentes independientes. El informe de la OIT (Organización Internacional del Trabajo) no solo señaló los "vacíos en la recopilación de datos", sino que documentó 50 muertes de trabajadores en 2020 por lesiones ocupacionales solo en Qatar, la mayoría en la construcción. Esto validó la postura de CNN de que las muertes eran sistemáticas y no accidentales.
+            El informe de la OIT (Organización Internacional del Trabajo) no solo señaló los "vacíos en la recopilación de datos", sino que afirmó 50 muertes de trabajadores en 2020 por lesiones ocupacionales solo en Qatar, la mayoría en la construcción. El informe dijo que la manera de recopilar los datos que utiliza Qatar es ineficiente, según sus propios informes, la mayoría de trabajadores con lesiones leves, que son de unos 37.600, son migrantes de Bangladesh, India y Nepal. Además de remarcar que los trabajadores extranjeros conforman un 95% de la fuerza laboral en Qatar
           </p>
           <p>
-            La nota cierra el círculo narrativo que hemos analizado:
-            <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-700">
-                <li>El artículo fue un acto de resistencia contra el silencio que la FIFA buscaba imponer (Nota 3).</li>
-                <li>Demostró el costo humano y literal de la estrategia de <strong>Soft Power</strong> (Nota 2).</li>
-                <li>Y validó el reclamo urgente de compensación que Amnistía Internacional exigía (Nota 4).</li>
-            </ul>
+            El Ministerio de Trabajo de Qatar señalo que estas cifras fueron "tremendamente engañosas".
           </p>
-          
+
+          <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">Amnistia Internacional exige una compensacion para los trabajadores</h3>
           <p>
-            En conclusión, mientras el periodismo deportivo celebró el "Mundial de Messi", CNN cubrió el "Mundial de la Vergüenza". Ambas coberturas coexistieron, pero ofrecieron al público dos realidades irreconciliables, demostrando el poder del periodismo de denuncia frente al espectáculo.
+            El grupo de derechos humanos instó a la FIFA a una compensación monetaria a los trabajadores que, afirman que sufrieron de abusos laborales. Y aunque, si bien reconocen los esfuerzos realizados para proteger los derechos de los trabajadores, pero Amnistía dice que ya es demasiado tarde.
+          </p>
+          <p>
+            La FIFA reconoció el pedido del grupo y afirmo que se esta trabajando en la "implementacion de un proceso de diligencia y sin precedentes"
+          </p>
+      
+          <p>
+            En síntesis, CNN en pleno desarrollo del mundial, no fueron por el ámbito deportivo, y le da voz a aquellos grupos que hasta la fecha, siguen protestando por las vidas de los trabajadores y sus derechos, y tal parece que con el Mundial 2034 en Arabia Saudita al horizonte, no va a ser una sorpresa ver estos temás resurgir una vez más.
           </p>
 
           {/* CAJA DE SIGUIENTES PASOS */}
@@ -92,7 +95,7 @@ const Nota5 = () => {
                   <Link to='/contrapunto' className='text-lg font-semibold text-gray-800 hover:text-[#B83B5E] transition-colors block'>
                     Ver el Contrapunto: La cobertura de Diario Olé
                   </Link>
-                  <span className='text-sm text-gray-600'>Donde la fiesta del fútbol no dejó espacio para estas preguntas.</span>
+                  <span className='text-sm text-gray-600'>Donde el foco esta más en la copa que en las personas.</span>
                 </div>
               </li>
             </ul>
@@ -105,7 +108,7 @@ const Nota5 = () => {
           {/* BANNER PUBLICITARIO EMBEBIDO */}
           <div className="w-full my-8 flex justify-center">
             <a href="https://www.rexona.com/ar/products/hombre.html?gad_source=1&gad_campaignid=22058928198&gclid=EAIaIQobChMIn5n0_db8kAMVaFVIAB3L1Cw_EAAYASAAEgK2CfD_BwE" target="_blank" rel="noopener noreferrer" 
-               className="block max-w-xs sm:max-w-sm mx-auto shadow-lg overflow-hidden rounded-lg">
+                className="block max-w-xs sm:max-w-sm mx-auto shadow-lg overflow-hidden rounded-lg">
               <img 
                 src="/anuncio5.jpg" 
                 alt="Publicidad Rexona" 

@@ -5,31 +5,31 @@ const Home = () => {
 
   const analysisNotes = [
     {
-      title: "DDHH vs. Mundial 2034",
+      title: "SE ENCIENDEN LAS ALARMAS",
       summary: "Cómo CNN prioriza la denuncia de Amnistía Internacional sobre la candidatura única de Arabia Saudita.",
       link: "/analisis/nota1",
       image: "/mundial2034.jpg"
     },
     {
-      title: "El 'Nuevo Orden Mundial'",
+      title: "CUANDO LA BILLETERA PESA",
       summary: "El análisis de CNN sobre la estrategia geopolítica saudí para 'alterar el orden mundial' con el fútbol.",
       link: "/analisis/nota2",
       image: "/nuevoorden.jpg"
     },
     {
-      title: "La 'Coronación' del Candidato",
+      title: "GANADOR POR DEFAULT",
       summary: "La cobertura del proceso de la FIFA, encuadrado como un 'trámite' corporativo y político, no deportivo.",
       link: "/analisis/nota3",
       image: "/candidatura.jpg"
     },
     {
-      title: "La 'Herida Abierta' de Qatar",
+      title: "LA HERIDA QUE NO CIERRA",
       summary: "A tres años del mundial, CNN recuerda la falta de justicia para los trabajadores migrantes.",
       link: "/analisis/nota4",
       image: "/costohumano.jpg"
     },
     {
-      title: "El Costo Humano",
+      title: "LA PREGUNTA PROHIBIDA",
       summary: "El clímax de la postura: la nota que pregunta '¿Cuántos muertos?' en plena fiesta del Mundial.",
       link: "/analisis/nota5",
       image: "/trabajadores.jpg"
