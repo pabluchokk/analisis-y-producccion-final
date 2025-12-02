@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center py-5 px-6">
         
         <Link to="/" className="text-2xl font-bold text-gray-800 uppercase tracking-wider" onClick={closeMobileMenu}>
-          Off the record
+          OJOS ABIERTOS
         </Link>
 
         {/* --- 1. NAVEGACIÓN DE ESCRITORIO --- */}
