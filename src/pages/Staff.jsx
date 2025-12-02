@@ -80,14 +80,6 @@ const Staff = () => {
             </div>
         </div>
 
-        {/* Nota al pie */}
-        <div className="text-center mt-12 text-gray-300 text-sm">
-            <p>
-                Este sitio es un trabajo práctico con fines educativos. 
-                Los análisis sobre CNN y Diario Olé son ejercicios académicos.
-            </p>
-        </div>
-
         </div>
     </div>
     );
