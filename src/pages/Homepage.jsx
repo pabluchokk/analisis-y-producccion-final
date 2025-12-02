@@ -54,7 +54,7 @@ const Home = () => {
             EL PRECIO DEL ESPECTÁCULO
           </h1>
           <h2 className="text-2xl lg:text-3xl font-light text-gray-200 italic max-w-3xl mb-8 mx-auto">
-            Análisis de la postura de <i>CNN en Español</i> sobre el costo humano en Medio Oriente, en contrapunto con la pasión del hincha de <i>Diario Olé</i>.
+            Análisis de la postura de <i>CNN en Español</i> sobre el costo humano en Medio Oriente, en contrapunto con la pasión del Mundial que se muestra en <i>Diario Olé</i>.
           </h2>
           
           {/* Este botón ahora hace SCROLL a la sección de análisis */}

@@ -44,8 +44,8 @@ const Entrevista = () => {
 
             {/* --- Imagen --- */}
             <img
-            src="/../../../public/venditti.jpg" 
-            alt="Análisis académico del Mundial"
+            src="venditti.jpg" 
+            alt="Clara Ralo Venditti"
             className="w-full h-auto rounded-lg shadow-lg mb-10 object-cover max-h-[400px]"
             />
 
