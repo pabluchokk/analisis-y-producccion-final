@@ -28,7 +28,7 @@ const Contrapunto = () => {
         {/* --- Imagen --- */}
         <figure className="mb-12">
           <img 
-            src="../../../public/argentinaCampeon.jpg" 
+            src="argentinaCampeon.jpg" 
             alt="Portada de Diario Olé celebrando el Mundial" 
             className="w-full h-auto rounded-xl shadow-2xl object-cover max-h-[500px]"
           />
@@ -65,7 +65,7 @@ const Contrapunto = () => {
           <h3 className="text-3xl font-bold text-[#6A2C70] mt-12 mb-6">Asepsia Histórica: De 1978 a 2022</h3>
           <figure className="mb-12">
           <img 
-            src="../../../public/argentina1978.jpg" 
+            src="argentina1978.jpg" 
             alt="Argentina celebrando el mundial de 1978" 
             className="w-full h-auto rounded-xl shadow-2xl object-cover max-h-[500px]"
           />
