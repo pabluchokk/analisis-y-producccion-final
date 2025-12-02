@@ -13,7 +13,7 @@ const Staff = () => {
                     EL EQUIPO
                 </h1>
                 <p className="text-xl text-gray-200 font-light">
-                    Quiénes hacen <span className="font-bold text-[#F08A5D]">OFF THE RECORD</span>
+                    Quiénes hacen <span className="font-bold text-[#F08A5D]">OJOS ABIERTOS</span>
                 </p>
             </header>
 
